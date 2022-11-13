@@ -22,7 +22,7 @@ Function Get-EmptyFolders()
     List all empty folders and remove them. 
     
     .NOTES
-    General notes
+    the option -literalPath needs to be used otherwiser files/folders containing characters like [] squared brackets fail to work
     #>
     
     [CmdletBinding()]
